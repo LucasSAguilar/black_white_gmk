@@ -1,0 +1,15 @@
+{
+  "FolderOrderSettings":[
+    {"name":"Cenas","order":10,"path":"folders/Cenas.yy",},
+    {"name":"Objetos","order":9,"path":"folders/Objetos.yy",},
+    {"name":"Scripts","order":5,"path":"folders/Scripts.yy",},
+    {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
+    {"name":"enemyCircle","order":3,"path":"folders/Sprites/enemyCircle.yy",},
+    {"name":"Player","order":1,"path":"folders/Sprites/Player.yy",},
+  ],
+  "ResourceOrderSettings":[
+    {"name":"oEnemyWhite","order":1,"path":"objects/oEnemyWhite/oEnemyWhite.yy",},
+    {"name":"sGround","order":2,"path":"sprites/sGround/sGround.yy",},
+    {"name":"sPLayerStopped_Black","order":1,"path":"sprites/sPLayerStopped_Black/sPLayerStopped_Black.yy",},
+  ],
+}
