@@ -26,9 +26,12 @@
   },
   "name":"Black White",
   "resources":[
+    {"id":{"name":"oEnemyBlack","path":"objects/oEnemyBlack/oEnemyBlack.yy",},},
     {"id":{"name":"oEnemyWhite","path":"objects/oEnemyWhite/oEnemyWhite.yy",},},
+    {"id":{"name":"oGameManager","path":"objects/oGameManager/oGameManager.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"sEnemyBlack","path":"sprites/sEnemyBlack/sEnemyBlack.yy",},},
     {"id":{"name":"sEnemyWhite","path":"sprites/sEnemyWhite/sEnemyWhite.yy",},},
     {"id":{"name":"sGround","path":"sprites/sGround/sGround.yy",},},
     {"id":{"name":"sPLayerStopped_Black","path":"sprites/sPLayerStopped_Black/sPLayerStopped_Black.yy",},},

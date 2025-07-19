@@ -8,7 +8,10 @@
     {"name":"Player","order":1,"path":"folders/Sprites/Player.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"oEnemyBlack","order":2,"path":"objects/oEnemyBlack/oEnemyBlack.yy",},
     {"name":"oEnemyWhite","order":1,"path":"objects/oEnemyWhite/oEnemyWhite.yy",},
+    {"name":"oGameManager","order":3,"path":"objects/oGameManager/oGameManager.yy",},
+    {"name":"sEnemyBlack","order":1,"path":"sprites/sEnemyBlack/sEnemyBlack.yy",},
     {"name":"sGround","order":2,"path":"sprites/sGround/sGround.yy",},
     {"name":"sPLayerStopped_Black","order":1,"path":"sprites/sPLayerStopped_Black/sPLayerStopped_Black.yy",},
   ],
