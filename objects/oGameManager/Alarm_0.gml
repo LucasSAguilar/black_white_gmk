@@ -8,5 +8,6 @@ do {
 	posY = random_range(0, window_get_height())
 } until (abs(posXPlayer - posX) > 250 && abs(posYPlayer - posY) > 250)
 
-var bolaPreta = instance_create_layer(posX, posY, layer, choose(oEnemyWhite, oEnemyBlack));
-alarm[0] = random_range(60, 100);
+var newEnemy = instance_create_layer(posX, posY, layer, oEnemy);
+newEnemy.sprite_index = choose(sEnemyBlack, sEnemyWhite)
+alarm[0] = random_range(200, 300);
