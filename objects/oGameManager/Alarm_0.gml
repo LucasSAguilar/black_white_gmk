@@ -10,4 +10,4 @@ do {
 
 var newEnemy = instance_create_layer(posX, posY, layer, oEnemy);
 newEnemy.sprite_index = choose(sEnemyBlack, sEnemyWhite)
-alarm[0] = random_range(200, 300);
+alarm[0] = random_range(70, 150);

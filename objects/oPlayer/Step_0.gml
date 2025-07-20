@@ -17,6 +17,12 @@ if (moveX != 0 || moveY != 0) {
     if (y + dy >= 0 && y + dy <= room_height) {
         y += dy;
     }
+	
+	if(moveX == -1){
+		image_xscale = -1
+	} else if (moveX == 1){
+		image_xscale = 1
+	}
 }
 
 if(keyboard_check_pressed(vk_space)){

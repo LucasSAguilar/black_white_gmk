@@ -5,5 +5,6 @@ if(sprite_index == sPLayerStopped_Black && other.sprite_index == sEnemyWhite){
 } else {
 	playerScore += 1
 	spriteUltimaBolaPega = other.sprite_index
+	quantidadeBolasPegas += 1
 	instance_destroy(other)
 }
