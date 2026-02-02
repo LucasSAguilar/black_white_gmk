@@ -46,6 +46,11 @@ if(keyboard_check_pressed(vk_control)){
 }
 
 if((sprite_index == sPLayerStopped_Black && spriteUltimaBolaPega == sEnemyWhite) || (sprite_index == sPLayerStopped_White && spriteUltimaBolaPega == sEnemyBlack)){
+	var dadosScore = hasNewHighScore(playerScore);
+	if(dadosScore.hasNewRecord){
+		saveNewRecordScore(playerScore)
+	}
+	
 	room_restart()
 }
 

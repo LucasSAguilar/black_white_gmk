@@ -2,7 +2,7 @@
   "$GMProject":"v1",
   "%Name":"Black White",
   "AudioGroups":[
-    {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
+    {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
   "configs":{
     "children":[],
@@ -24,16 +24,20 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.13.1.193",
+    "IDEVersion":"2024.14.3.217",
   },
   "name":"Black White",
   "resources":[
+    {"id":{"name":"fMainMenu","path":"fonts/fMainMenu/fMainMenu.yy",},},
     {"id":{"name":"hubJogador","path":"fonts/hubJogador/hubJogador.yy",},},
     {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},},
     {"id":{"name":"oGameManager","path":"objects/oGameManager/oGameManager.yy",},},
+    {"id":{"name":"oMenu","path":"objects/oMenu/oMenu.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"oPlayerShoot","path":"objects/oPlayerShoot/oPlayerShoot.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"rGame","path":"rooms/rGame/rGame.yy",},},
+    {"id":{"name":"rMainMenu","path":"rooms/rMainMenu/rMainMenu.yy",},},
+    {"id":{"name":"shandlerScore","path":"scripts/shandlerScore/shandlerScore.yy",},},
     {"id":{"name":"sEnemyBlack","path":"sprites/sEnemyBlack/sEnemyBlack.yy",},},
     {"id":{"name":"sEnemyWhite","path":"sprites/sEnemyWhite/sEnemyWhite.yy",},},
     {"id":{"name":"sGround","path":"sprites/sGround/sGround.yy",},},
@@ -45,7 +49,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rMainMenu","path":"rooms/rMainMenu/rMainMenu.yy",},},
+    {"roomId":{"name":"rGame","path":"rooms/rGame/rGame.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

@@ -10,9 +10,12 @@
     {"name":"PlayerShoot","order":5,"path":"folders/Sprites/PlayerShoot.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"fMainMenu","order":1,"path":"fonts/fMainMenu/fMainMenu.yy",},
     {"name":"oEnemy","order":5,"path":"objects/oEnemy/oEnemy.yy",},
     {"name":"oGameManager","order":3,"path":"objects/oGameManager/oGameManager.yy",},
+    {"name":"oMenu","order":6,"path":"objects/oMenu/oMenu.yy",},
     {"name":"oPlayerShoot","order":4,"path":"objects/oPlayerShoot/oPlayerShoot.yy",},
+    {"name":"rMainMenu","order":1,"path":"rooms/rMainMenu/rMainMenu.yy",},
     {"name":"sEnemyBlack","order":1,"path":"sprites/sEnemyBlack/sEnemyBlack.yy",},
     {"name":"sGround","order":2,"path":"sprites/sGround/sGround.yy",},
     {"name":"sPlayerShootBlack","order":1,"path":"sprites/sPlayerShootBlack/sPlayerShootBlack.yy",},
