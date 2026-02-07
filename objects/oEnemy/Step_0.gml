@@ -1,5 +1,7 @@
+if(oGameManager.isGameRunning == false) return;
+
 x -= spdX
-y-= spdY
+y -= spdY
 
 
 if (x < 0 || x > room_width){

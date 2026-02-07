@@ -1,3 +1,5 @@
+if(!oGameManager.isGameRunning) {return}
+
 x -= spdX
 y -= spdY
 

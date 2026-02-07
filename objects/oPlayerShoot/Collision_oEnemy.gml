@@ -9,5 +9,5 @@ if(sprite_index == sPlayerShootBlack && other.sprite_index == sEnemyWhite){
 function destruirInimigo(){
 	instance_destroy(other)
 	instance_destroy()
-	oPlayer.playerScore += 1
+	oPlayer.playerScore += 3
 }

@@ -1,5 +1,6 @@
 optionsMenu = [
 	"Jogar",
+	"Score",
 	"Sair"
 ]
 

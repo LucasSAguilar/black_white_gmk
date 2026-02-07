@@ -1,3 +1,5 @@
+if(oGameManager.isGameRunning == false) return
+
 var moveX = 0;
 var moveY = 0;
 
@@ -30,7 +32,7 @@ if(keyboard_check_pressed(vk_space)){
 }
 
 
-if(keyboard_check_pressed(vk_control)){
+if(keyboard_check_pressed(vk_control) && podeAtirar){
 	if(spriteUltimaBolaPega == noone){
 		return
 	}
@@ -50,7 +52,6 @@ if((sprite_index == sPLayerStopped_Black && spriteUltimaBolaPega == sEnemyWhite)
 	if(dadosScore.hasNewRecord){
 		saveNewRecordScore(playerScore)
 	}
-	
-	room_restart()
+	stopAllGame()
 }
 

@@ -1,15 +1,24 @@
 function saveNewRecordScore(score){
-	ini_open("save.ini")
-	ini_write_real("Progresso", "high_score", score)
-	ini_close()
+	
+	var dadosParaSalvar = {
+		score: score,
+		data: date_datetime_string(date_current_datetime())
+	}
+	
+	var jsonString = json_stringify(dadosParaSalvar)
+	var file = file_text_open_write("save.json")
+	file_text_write_string(file, jsonString)
+	file_text_close(file)
 }
 
 function loadHighScore(){
-	ini_open("save.ini")
-	var lastScore = ini_read_real("Progresso", "high_score", 0)
-	ini_close()
+	if(!file_exists("save.json")) return 0
+	var file = file_text_open_read("save.json")
+	var jsonRetornado = file_text_read_string(file)
+	file_text_close(file)
+	var estruturaDados = json_parse(jsonRetornado)
 	
-	return lastScore
+	return estruturaDados.score
 }
 
 function hasNewHighScore(newScore){

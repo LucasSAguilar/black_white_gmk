@@ -1,3 +1,5 @@
+if(oGameManager.isGameRunning == false) return
+
 var angle = point_direction(x, y, mouse_x, mouse_y) + 180;
 var speedG = 20;
 

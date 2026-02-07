@@ -37,6 +37,7 @@
     {"id":{"name":"oPlayerShoot","path":"objects/oPlayerShoot/oPlayerShoot.yy",},},
     {"id":{"name":"rGame","path":"rooms/rGame/rGame.yy",},},
     {"id":{"name":"rMainMenu","path":"rooms/rMainMenu/rMainMenu.yy",},},
+    {"id":{"name":"sGameManager","path":"scripts/sGameManager/sGameManager.yy",},},
     {"id":{"name":"shandlerScore","path":"scripts/shandlerScore/shandlerScore.yy",},},
     {"id":{"name":"sEnemyBlack","path":"sprites/sEnemyBlack/sEnemyBlack.yy",},},
     {"id":{"name":"sEnemyWhite","path":"sprites/sEnemyWhite/sEnemyWhite.yy",},},
