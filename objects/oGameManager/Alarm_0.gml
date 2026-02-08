@@ -17,8 +17,8 @@ newEnemy.sprite_index = choose(sEnemyBlack, sEnemyWhite)
 
 if(oPlayer.playerScore >= checkPointScore + 15 && (minMilSecondsToSpawnEnemy >= 10 && maxMilSecondsToSpawnEnemy >= 10)){
 	checkPointScore += 15
-	minMilSecondsToSpawnEnemy -= 10
-	maxMilSecondsToSpawnEnemy -= 10
+	minMilSecondsToSpawnEnemy -= 5
+	maxMilSecondsToSpawnEnemy -= 5
 }
 
 alarm[0] = random_range(minMilSecondsToSpawnEnemy, maxMilSecondsToSpawnEnemy);
